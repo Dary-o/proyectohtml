@@ -1,0 +1,993 @@
+body {
+    background-color: #ffffff;
+    font-family: Modeka;
+}
+
+header {
+    width:960px;
+    height: 80px;
+    background-color: #fafafa;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#marca {
+    width: 260px;
+    height: 80px;
+    background-color: #20e3a5;
+    float: left;
+    padding: 18px;
+    box-sizing: border-box;
+}   
+
+h1 {
+    font-size: 34px;
+    color: #212423;
+    margin-top: 0;
+}
+
+
+#botonera {
+    width: 700px;
+    height: 80px;
+    background-color:  #ffffff;
+    float: right;
+    font-size: 12px;
+
+}
+
+#botonera ul {
+    margin-left: 109px;
+    margin-top: 25px;
+    list-style-type: none;    
+}
+
+#botonera ul li, #redes ul li{
+    display: inline;
+}
+
+#botonera ul li a{
+    display: inline-block;
+    padding: 20px 10px;
+    color: #212423;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#botonera ul li a:hover {
+    background-color: #212423; 
+    color: #20e3a5;
+}
+
+#consolas {
+    width: 960px;
+    height: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#imagen_1 {
+    width: 310px;
+    height: 300px;
+    background-image: url(imagenes/nintendo.png);
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+#imagen_2 {
+    width: 310px;
+    height: 300px;
+    background-image: url(imagenes/xboxone.png);
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+#imagen_3 {
+    width: 310px;
+    height: 300px;
+    background-image: url(imagenes/xbox360.png);
+    float: right;
+    background-size: cover;
+
+}
+
+#imagen_4 {
+    width: 310px;
+    height: 300px;
+    background-image: url(imagenes/pc.jpg);
+   float: left;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+#imagen_5 {
+    width: 310px;
+    height: 300px;
+    background-image: url(imagenes/ps4.png);
+   float: left;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+#imagen_6 {
+    width: 310px;
+    height: 300px;
+    background-image: url(imagenes/ps3.png);
+   float: right;
+    margin-bottom: 10px;
+    background-size: cover;
+    
+}
+
+#noticias {
+    width: 960px;
+    height: 400px;
+    background-image:url(imagenes/play5.jpg);
+    clear: both;
+    background-size: cover;
+}
+
+#noticias h1 a {
+    color: #20e3a5;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#noticias h1 a:hover {
+    color: #ffffff;
+
+}
+
+footer {
+    width: 960px;
+    height: 150px;
+    background-color: #212423;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#datos {
+    width: 960px;
+    height: 100px;
+    float: left;
+}
+
+#redes {
+    width: 960px;
+    height: 50px;
+    float: right;
+    background-color: #4a4a49;
+}
+
+#redes ul {
+    margin-left:700px;
+    list-style-type: none;
+}
+
+#redes ul li a{
+    color: #20e3a5;
+    font-size: 20px; 
+    text-decoration:none;
+    padding:5px;
+}
+
+#redes ul li a:hover {
+    color: #ffffff;
+
+}
+
+#nin {
+    width: 960px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    color: #212423;
+    background-image: url(imagenes/ninnin.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+#nin li {
+    font-size: 24px;
+}   
+
+#xbox1 {
+    width: 960px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    color: #212423;
+    background-image: url(imagenes/xbox1.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-top: 10px;    
+}
+
+#xbox1 li {
+    font-size: 24px;
+}
+
+#xbox2 {
+    width: 960px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    color: #212423;
+    background-image: url(imagenes/xbox2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-top: 10px; 
+}
+
+#xbox2 li {
+    font-size: 24px;
+}
+
+#pcgamer1 {
+    width: 960px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(imagenes/pcgamer1.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    color: #212423;
+    margin-top: 10px;
+}
+
+#pcgamer1 li {
+    font-size: 24px;
+}
+
+#pcgamer2 {
+    width: 960px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(imagenes/pcgamer2.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    color: #212423;
+    margin-top: 10px;
+}
+
+#pcgamer2 li {
+    font-size: 24px;
+}
+
+#play3 {
+    width: 960px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(imagenes/play3.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    color: #212423;
+    margin-top: 10px;
+}
+
+#play3 li {
+    font-size: 24px;
+}
+
+#play4 {
+    width: 960px;
+    height: 350px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(imagenes/play4.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    color: #212423;
+    margin-top: 10px;
+}
+
+#play4 li {
+    font-size: 24px;
+}
+
+#topjuegoss {
+    width: 960px;
+    height: 1050px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #212423;
+    margin-top: 10px;
+    background-image: url(imagenes/mandos.jpg);
+}
+
+#juegosnin li {
+    font-size: 20px;
+    list-style-type: decimal;
+    font-weight: bold;
+}
+
+#juegosnin {
+    width: 470px;
+    height: 350px;
+    float: left;
+    color: #212423
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+#juegosxboxone {
+    width: 470px;
+    height: 350px;
+    float: left;
+    margin-top: 10px;   
+}
+
+#juegosxboxone li {
+    font-size: 20px;
+    list-style-type: decimal;
+    font-weight: bold;
+}
+
+#juegospc {
+    width: 470px;
+    height: 350px;
+    float:left;
+    color: #212423;
+    margin-top: 10px;
+}
+
+#juegospc li {
+    font-size: 20px;
+    list-style-type: decimal;
+    font-weight: bold;
+}
+
+#juegosxbox360 {
+    width: 470px;
+    height: 350px;
+    float: left;
+    margin-top: 10px; 
+}
+
+#juegosxbox360 li {
+    font-size: 20px;
+    list-style-type: decimal;
+    font-weight: bold;
+}
+
+#juegosplay3 {
+    width: 470px;
+    height: 350px;
+    float:left;
+    color: #212423;
+    margin-top: 10px;
+}
+
+#juegosplay3 li {
+    font-size: 20px;
+    list-style-type: decimal;
+    font-weight: bold;
+}
+
+#juegosplay4 {
+    width: 470px;
+    height: 350px;
+    float: left;
+    margin-top: 10px;
+}
+
+#juegosplay4 li {
+    font-size: 20px;
+    list-style-type: decimal;
+    font-weight: bold;
+}
+
+h2 {
+    text-decoration: underline overline;
+    text-decoration: bold;
+}
+
+.alineacionizq h2 {
+    text-align: right;
+}
+/*
+#formulario {
+    width: 960px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    clear: auto;
+    color: #212423;
+}
+
+#formulario p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+} */
+
+#adivina {
+    width: 960px;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;   
+}
+
+#adivina h2 {
+    text-align: center;
+    text-decoration: none;
+}
+
+/* ACA COMIENZA */
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+header {
+    width:580px;
+}
+
+#marca {
+    width: 150px;
+    margin-right: 0px;
+    padding: 10px;
+}   
+
+h1 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+#botonera {
+    width: 430px;
+    margin-left: 0px;
+}
+
+#botonera ul {
+    margin-left: 0px;
+    margin-top: 40px;  
+}
+
+#botonera ul li a{
+    display: inline-block;
+    padding: 15px 5px;
+    font-size: 9px
+}
+
+#consolas {
+    width: 580px;
+    height: 1300px;
+}
+
+#imagen_1 {
+    width: 285px;
+    height: 300px;
+    background-image: url(imagenes/nintendo.png);
+    margin-right: 10px;
+}
+
+#imagen_2 {
+    width: 285px;
+    height: 300px;
+    background-image: url(imagenes/xboxone.png);
+    margin-right: 0px;
+}
+
+#imagen_3 {
+    width: 285px;
+    height: 300px;
+    background-image: url(imagenes/xbox360.png);
+    float: left;
+    margin-right: 10px
+}
+
+#imagen_4 {
+    width: 285px;
+    height: 300px;
+    background-image: url(imagenes/pc.jpg);
+    float: right;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#imagen_5 {
+    width: 285px;
+    height: 300px;
+    background-image: url(imagenes/ps4.png);
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#imagen_6 {
+    width: 285px;
+    height: 300px;
+    background-image: url(imagenes/ps3.png);
+    float: right;
+    margin-bottom: 10px;
+}
+
+#noticias {
+    width: 580px;
+    height: 400px;
+    background-image:url(imagenes/ps5.jpg);
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+footer {
+    width: 580px;
+    height: 150px;
+    background-color: #212423;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#datos {
+    width: 580px;
+    height: 100px;
+}
+
+#redes {
+    width: 580px;
+    height: 50px;
+}
+
+#redes ul {
+    margin-left:180px;
+}
+
+#redes ul li a{
+    font-size: 14px; 
+    padding:5px;
+}
+
+#nin {
+    width: 580px;
+    height: 150px;
+    background-image: none;
+    margin-top: 10px;
+}
+#nin li {
+    font-size: 16px;
+}   
+
+#xbox1 {
+    width: 580px;
+    height: 230px;
+    background-image: none;    
+}
+
+#xbox1 li {
+    font-size: 16px;
+}
+
+#xbox2 {
+    width: 580px;
+    height: 230px;
+    background-image: none;
+}
+
+#xbox2 li {
+    font-size: 16px;
+}
+
+#pcgamer1 {
+    width: 580px;
+    height: 180px;
+    background-image: none;
+}
+
+#pcgamer1 li {
+    font-size: 16px;
+}
+
+#pcgamer2 {
+    width: 580px;
+    height: 200px;
+    background-image: none;
+}
+
+#pcgamer2 li {
+    font-size: 16px;
+}
+
+#play3 {
+    width: 580px;
+    height: 250px;
+    background-image: none;
+}
+
+#play3 li {
+    font-size: 16px;
+}
+
+#play4 {
+    width: 580px;
+    height: 250px;
+    background-image: none;
+}
+
+#play4 li {
+    font-size: 16px;
+}
+
+#topjuegoss {
+    width: 580px;
+    height: 630px;
+    background-image: url(imagenes/mandos.jpg);
+}
+
+#juegosnin li {
+    font-size: 12px;
+}
+
+#juegosnin {
+    width: 285px;
+    height: 200px;
+}
+
+#juegosxboxone {
+    width: 285px;
+    height: 200px;   
+}
+
+#juegosxboxone li {
+    font-size: 12px;
+}
+
+#juegospc {
+    width: 285px;
+    height: 200px;
+}
+
+#juegospc li {
+    font-size: 12px;
+}
+
+#juegosxbox360 {
+    width: 285px;
+    height: 200px;
+}
+
+#juegosxbox360 li {
+    font-size: 12px;
+}
+
+#juegosplay3 {
+    width: 285px;
+    height: 200px;
+}
+
+#juegosplay3 li {
+    font-size: 12px;
+}
+
+#juegosplay4 {
+    width: 285px;
+    height: 200px;
+}
+
+#juegosplay4 li {
+    font-size: 12px;
+}
+
+h2 {
+    text-decoration: underline overline;
+    text-decoration: bold;
+    font-size: 16px;
+}
+
+.alineacionizq h2 {
+    text-align: right;
+}
+
+} /* fin media 600 a 1023px */
+
+@media all and (max-width: 599px) {
+
+header {
+    width: 90%;
+    height: auto;
+}
+
+#marca {
+    width: 100%;
+    height: auto;
+    float: none;
+}   
+
+h1 {
+    text-align: center;
+}
+
+
+#botonera {
+    width: 80%;
+    height: auto;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#botonera ul {
+    margin-left: 0px;
+    margin-top: 0px;
+    list-style-type: none;    
+}
+
+#botonera ul li {
+    display: block;
+}
+
+#redes ul li {
+    display: inline;
+}
+
+#botonera ul li a{
+    display: inline-block;
+    padding: 15px 5px;
+    color: #212423;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+#consolas {
+    width: 90%;
+    height: 2250px;
+}
+
+#imagen_1 {
+    width: 100%;
+    height: 300px;
+    background-image: url(imagenes/nintendo.png);
+    float: none;
+    margin-right: 0px;
+    background-size: cover;
+}
+
+#imagen_2 {
+    width: 100%;
+    height: 300px;
+    background-image: url(imagenes/xboxone.png);
+    float: none;
+    margin-right: 0px;
+    background-size: cover;
+}
+
+#imagen_3 {
+    width: 100%;
+    height: 300px;
+    background-image: url(imagenes/xbox360.png);
+    float: none;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+#imagen_4 {
+    width: 100%;
+    height: 300px;
+    background-image: url(imagenes/pc.jpg);
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+#imagen_5 {
+    width: 100%;
+    height: 300px;
+    background-image: url(imagenes/ps4.png);
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+#imagen_6 {
+    width: 100%;
+    height: 300px;
+    background-image: url(imagenes/ps3.png);
+    float: none;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+#noticias {
+    width: 100%;
+    height: 400px;
+    background-image:url(imagenes/ps55.png);
+    float: none;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+}
+
+#datos {
+    width: 100%;
+    height: 100px;
+    float: none;
+}
+
+#redes {
+    width: 100%;
+    height: 50px;
+    float: none;
+}
+
+#redes ul {
+    margin-left: 70px;
+    padding: 15px 15px;
+}
+
+#redes ul li a{
+    color: #20e3a5;
+    font-size: 14px; 
+    text-decoration:none;
+    padding:5px;
+}
+
+
+#nin {
+    width: 90%;
+    height: 180px;
+    background-image: none;
+}
+#nin li {
+    font-size: 16px;
+}   
+
+#xbox1 {
+    width: 90%;
+    height: 280px;
+    background-image: none;    
+}
+
+#xbox1 li {
+    font-size: 16px;
+}
+
+#xbox2 {
+    width: 90%;
+    height: 250px;
+    background-image: none;
+}
+
+#xbox2 li {
+    font-size: 16px;
+}
+
+#pcgamer1 {
+    width: 90%;
+    height: 230px;
+    background-image: none;
+}
+
+#pcgamer1 li {
+    font-size: 16px;
+}
+
+#pcgamer2 {
+    width: 90%;
+    height: 280px;
+    background-image: none;
+}
+
+#pcgamer2 li {
+    font-size: 16px;
+}
+
+#play3 {
+    width: 90%;
+    height: 300px;
+    background-image: none;
+}
+
+#play3 li {
+    font-size: 16px;
+}
+
+#play4 {
+    width: 90%;
+    height: 300px;
+    background-image: none;
+}
+
+#play4 li {
+    font-size: 16px;
+}
+
+#topjuegoss {
+    width: 90%;
+    height: 2080px;
+    background-color: #20e3a5;
+}
+
+#juegosnin li {
+    font-size: 18px;
+}
+
+#juegosnin {
+    width: 100%;
+    height: 330px;
+    float: none;
+    margin-right: 0px;
+}
+
+#juegosxboxone {
+    width: 100%;
+    height: 300px;
+    float: none;  
+}
+
+#juegosxboxone li {
+    font-size: 18px;
+}
+
+#juegospc {
+    width: 100%;
+    height: 370px;
+    float: none;
+}
+
+#juegospc li {
+    font-size: 18px;
+}
+
+#juegosxbox360 {
+    width: 100%;
+    height: 300px;
+    float: none;
+}
+
+#juegosxbox360 li {
+    font-size: 18px;
+}
+
+#juegosplay3 {
+    width: 100%;
+    height: 300px;
+    float: none;
+}
+
+#juegosplay3 li {
+    font-size: 18px;
+}
+
+#juegosplay4 {
+    width: 100%;
+    height: 300px;
+    float: none;
+}
+
+#juegosplay4 li {
+    font-size: 18px;
+}
+
+h2 {
+    text-decoration: underline overline;
+    text-decoration: bold;
+}
+
+.alineacionizq h2 {
+    text-align: right;
+}
+    
+}
